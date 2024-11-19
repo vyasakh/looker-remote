@@ -9,6 +9,12 @@ view: dummy {
     type: string
     sql: ${TABLE}.b ;;
   }
+
+  dimension: c {
+    type: string
+    sql: ${bs} ;;
+  }
+
   measure: count {
     type: count
   }
