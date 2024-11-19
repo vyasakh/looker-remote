@@ -5,7 +5,7 @@ view: dummy {
     type: string
     sql: ${TABLE}.a ;;
   }
-  dimension: b {
+  dimension: bs {
     type: string
     sql: ${TABLE}.b ;;
   }
